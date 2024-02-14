@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rubik&display=swap');
+
+
+form{
+    text-align: center;
+    width: 40vw;
+    margin-left: 30vw;
+    margin-bottom: 3vh;
+}
+
+input[type=text]{
+    width: 20vw;
+    margin: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+input[type=email]{
+    width: 20vw;
+    margin: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+input[type=datetime-local]{
+    width: 20vw;
+    margin: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.radiji{
+    margin-bottom: 5vh;
+}
+
+label{
+    margin-left: 3px;
+}
+
+button{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+}
+
+.ispisButton{
+    text-align: center;
+    font-size: 120%;
+    width: 20vw;
+    height: 8vh;
+    margin-left: 40vw;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.povratakButton{
+    text-align: center;
+    width: 10vw;
+    margin-left: 45vw;
+    margin-bottom: 5vh;
+}
+
+button:hover{
+    background-color: #48A1D9;
+    border-color: #BF7E04;
+    border-width: 4px;
+    color: white;
+}
+
+h2{
+    font-size: 300%;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 4.8vw;
+    font-weight: 900;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+table{
+    width: 95vw;
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 5vh;
+    margin-left: 2.1vw;
+    table-layout: fixed;
+}
+
+td{
+    border: 2px solid #D6D2D2;
+    font-size: 1.2vw;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    height: 15vh;
+    overflow-wrap: break-word;
+}
+
+tr:nth-child(even){
+    background-color: #75b9e4;
+}
+
+tr:nth-child(odd){
+    background-color: #48A1D9;
+}
+
+th{
+    border: 4px solid #D6D2D2;
+    font-size: 2vw;
+    font-weight: 900;
+    font-family: 'Rubik', sans-serif;
+    background-color: #BF7E04;
+    color: white;
+    overflow-wrap: break-word;
+}
+
+tr{
+    height: 5vh;
+}
+
+/*.obrisi_forma{
+    width: 70%;
+    height: 70%;
+    background-color: rgb(140, 140, 245);
+}*/
+
+#obrisibutton{
+    
+    background-color: red;
+    color: white;
+    width: 5vw;
+    font-size: 0.8vw;
+}
+
+#uredibutton{
+    background-color: yellow;
+    color: black;
+    width: 5vw;
+    font-size: 0.8vw;
+}
+
+.posebni{
+
+    text-align: center;
+    font-size: 120%;
+    width: 20vw;
+    height: 8vh;
+    margin-left: 40vw;
+    margin-bottom: 5vh;
+    
+}
+
+img{
+    margin-bottom: 5vh;
+    width: 20vw;
+    margin-left: 42vw;
+}
